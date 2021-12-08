@@ -8,6 +8,7 @@ import { RichText } from "prismic-dom";
 import { Icon } from "@iconify/react";
 import styles from "./projects.module.scss";
 
+
 interface projectProps {
   title: string;
   desc: string;
