@@ -1,0 +1,50 @@
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  > h1 {
+    font-size: 4rem;
+    margin: 4rem 0 2rem;
+  }
+
+  p {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+}
+
+.containerButtons {
+  padding: 1rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--white);
+    color: var(--gray-dark);
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 400px;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--white);
+    transition: 0.2s;
+
+    svg {
+      margin-right: 1rem;
+      color: var(--gray-dark);
+    }
+
+    & + a {
+      margin-top: 0.5rem;
+    }
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}

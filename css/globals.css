@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: #80ed99;
+  --gray-dark: #0d1117;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--green);
+  font-family: "Space Grotesk", sans-serif;
+}
+/*# sourceMappingURL=globals.css.map */

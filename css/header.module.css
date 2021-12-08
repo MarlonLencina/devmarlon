@@ -1,0 +1,42 @@
+.header {
+  padding: 2rem;
+}
+
+.headerContainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerContainer nav a {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  border: 1px solid var(--gray-dark);
+  color: var(--gray-dark);
+  animation-name: example;
+  transition: 0.2s;
+}
+
+.headerContainer nav a:hover {
+  background-color: transparent;
+}
+
+.headerContainer nav a + a {
+  margin-left: 0.5rem;
+}
+
+.headerContainer nav a + a:hover {
+  background-color: transparent;
+  color: var(--gray-dark);
+}
+
+.headerContainer nav :last-child {
+  background-color: var(--gray-dark);
+  color: var(--white);
+}
+/*# sourceMappingURL=header.module.css.map */
