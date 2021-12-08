@@ -7,7 +7,7 @@ import Prismic from "@prismicio/client";
 import { RichText } from "prismic-dom";
 import { Icon } from "@iconify/react";
 import styles from "./projects.module.scss";
-
+import Image from "next/image";
 
 interface projectProps {
   title: string;
