@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import styles from "./header.module.scss";
 
@@ -6,7 +7,7 @@ export const Header = () => {
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <Link href="/">
-          <img src="/images/logodevmarlon.svg" alt="devmarlon" />
+          <Image width={132} height={37} src="/images/logodevmarlon.svg" alt="devmarlon" />
         </Link>
         <nav>
           <Link href="/projects">

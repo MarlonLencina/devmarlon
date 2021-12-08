@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { Header } from "../components/header";
 import styles from "./home.module.scss";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
@@ -12,7 +13,12 @@ const Home: NextPage = () => {
       <Header />
       <main className={styles.content}>
         <div className={styles.content__chat}>
-          <img src="/images/fotodevmarlon.png" alt="" />
+          <Image
+            width={220}
+            height={220}
+            src="/images/fotodevmarlon.png"
+            alt=""
+          />
         </div>
         <h1>Full Stack developer.</h1>
         <p>
@@ -52,7 +58,7 @@ const Home: NextPage = () => {
         </div>
       </article>
       <footer className={styles.footerContainer}>
-        <img src="/images/logodevmarlon.svg" alt="" />
+        <Image width={132} height={37} src="/images/logodevmarlon.svg" alt="" />
         <p>All rights reserved to Marlon Lencina, 2022.</p>
       </footer>
     </>
